@@ -1,38 +1,48 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
 # Tiny Tapeout Wokwi Project Template
-hiiiiiiiiiiiiiii
-- [Read the documentation for project](docs/info.md)
+Wokwi ID: 354858054593504257
+TITLE: CDM BOOTCAMP 2026
+author:   "Ivan Obalan"   # 
+description: "based from Tiny Tapeout Wokwi Template"   # One line description of what your project does[cite: 1]
+language: "Wokwi"  # other examples include SystemVerilog, Amaranth, VHDL, etc[cite: 1]
+clock_hz: 0   # Clock frequency in Hz (or 0 if not applicable)[cite: 1]
 
-## What is Tiny Tapeout?
+# How many tiles your design occupies? A single tile is about 167x108 uM.[cite: 1]
+tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2[cite: 1]
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.[cite: 1]
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).[cite: 1]
+pinout:[cite: 1]
+  # Inputs[cite: 1]
+  ui[0]: "IN0"[cite: 1]
+  ui[1]: "IN1"[cite: 1]
+  ui[2]: "IN2"[cite: 1]
+  ui[3]: "IN3"[cite: 1]
+  ui[4]: "IN4"[cite: 1]
+  ui[5]: "IN5"[cite: 1]
+  ui[6]: "IN6"[cite: 1]
+  ui[7]: "IN7"[cite: 1]
 
-To learn more and get started, visit https://tinytapeout.com.
+  # Outputs[cite: 1]
+  uo[0]: "OUT0"[cite: 1]
+  uo[1]: "OUT1"[cite: 1]
+  uo[2]: "OUT2"[cite: 1]
+  uo[3]: "OUT3"[cite: 1]
+  uo[4]: "OUT4"[cite: 1]
+  uo[5]: "OUT5"[cite: 1]
+  uo[6]: "OUT6"[cite: 1]
+  uo[7]: "OUT7"[cite: 1]
 
-## Wokwi Projects
+  # Bidirectional pins[cite: 1]
+  uio[0]: ""[cite: 1]
+  uio[1]: ""[cite: 1]
+  uio[2]: ""[cite: 1]
+  uio[3]: ""[cite: 1]
+  uio[4]: ""[cite: 1]
+  uio[5]: ""[cite: 1]
+  uio[6]: ""[cite: 1]
+  uio[7]: ""[cite: 1]
 
-Edit the [info.yaml](info.yaml) and change the `wokwi_id` to the ID of your Wokwi project. You can find the ID in the URL of your project, it's the big number after `wokwi.com/projects/`.
-
-The GitHub action will automatically fetch the digital netlist from Wokwi and build the ASIC files.
-
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## Resources
-
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-- [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
+# Do not change![cite: 1]
+yaml_version: 6[cite: 1]
