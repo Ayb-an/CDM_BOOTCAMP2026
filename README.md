@@ -4,45 +4,46 @@
 Wokwi ID: 354858054593504257
 TITLE: CDM BOOTCAMP 2026
 author:   "Ivan Obalan"   # 
-description: "based from Tiny Tapeout Wokwi Template"   # One line description of what your project does[cite: 1]
-language: "Wokwi"  # other examples include SystemVerilog, Amaranth, VHDL, etc[cite: 1]
-clock_hz: 0   # Clock frequency in Hz (or 0 if not applicable)[cite: 1]
+title:    "TinyTapeoutTemplate_PhBootCamp2026"  # Project title
+description: "based from Tiny Tapeout Wokwi Template"   # One line description of what your project does
+language: "Wokwi"  # other examples include SystemVerilog, Amaranth, VHDL, etc
+clock_hz: 0   # Clock frequency in Hz (or 0 if not applicable)
 
-# How many tiles your design occupies? A single tile is about 167x108 uM.[cite: 1]
-tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2[cite: 1]
+# How many tiles your design occupies? A single tile is about 167x108 uM.
+tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
-# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.[cite: 1]
-# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).[cite: 1]
-pinout:[cite: 1]
-  # Inputs[cite: 1]
-  ui[0]: "IN0"[cite: 1]
-  ui[1]: "IN1"[cite: 1]
-  ui[2]: "IN2"[cite: 1]
-  ui[3]: "IN3"[cite: 1]
-  ui[4]: "IN4"[cite: 1]
-  ui[5]: "IN5"[cite: 1]
-  ui[6]: "IN6"[cite: 1]
-  ui[7]: "IN7"[cite: 1]
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "IN0"
+  ui[1]: "IN1"
+  ui[2]: "IN2"
+  ui[3]: "IN3"
+  ui[4]: "IN4"
+  ui[5]: "IN5"
+  ui[6]: "IN6"
+  ui[7]: "IN7"
 
-  # Outputs[cite: 1]
-  uo[0]: "OUT0"[cite: 1]
-  uo[1]: "OUT1"[cite: 1]
-  uo[2]: "OUT2"[cite: 1]
-  uo[3]: "OUT3"[cite: 1]
-  uo[4]: "OUT4"[cite: 1]
-  uo[5]: "OUT5"[cite: 1]
-  uo[6]: "OUT6"[cite: 1]
-  uo[7]: "OUT7"[cite: 1]
+  # Outputs
+  uo[0]: "OUT0"
+  uo[1]: "OUT1"
+  uo[2]: "OUT2"
+  uo[3]: "OUT3"
+  uo[4]: "OUT4"
+  uo[5]: "OUT5"
+  uo[6]: "OUT6"
+  uo[7]: "OUT7"
 
-  # Bidirectional pins[cite: 1]
-  uio[0]: ""[cite: 1]
-  uio[1]: ""[cite: 1]
-  uio[2]: ""[cite: 1]
-  uio[3]: ""[cite: 1]
-  uio[4]: ""[cite: 1]
-  uio[5]: ""[cite: 1]
-  uio[6]: ""[cite: 1]
-  uio[7]: ""[cite: 1]
+  # Bidirectional pins
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
 
-# Do not change![cite: 1]
-yaml_version: 6[cite: 1]
+# Do not change!
+yaml_version: 6
